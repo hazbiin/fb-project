@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link href="index.css" type="text/css" rel="stylesheet">
+
+<body>
+    <div class="container">
+        <div class="footer">
+         <div class="logo">
+          <a class= "logo-text" href="index.html">facebook</a>
+
+         </div>
+         
+         <div class="login">
+             <form action="">
+                <table  class="login-controls">
+                    <tr>
+                        <td><label class="login-label">Email or phone</label></td>
+                        <td><label class="login-label">Password</label></td>
+                    </tr>
+                    <tr>
+                        <td><input class="no-outline" type="text"></td>
+                        <td><input class="no-outline" type="text"></td>
+                        <td><input class="submit-btn" type="submit" value="Login"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td >
+                           <a class="forgotten-label" href="forgotten.html"> Forgotten account?</a>
+                        </td>
+                    </tr>
+                </table>
+             </form>
+         </div>
+        </div>
+        <div class="main-body">
+         <div class="left-section">
+              <p class="para">Facebook helps you connect and share with the<br>people in your life.</p>
+              <img class="image" src="fb.png" alt="hello">
+         </div>
+         <div class="right-section"> 
+         <h1 class="heading">Create an account</h1>
+         <p class="para2">It's quick and easy.</p>
+         <form  id="signup-form"  action="">
+            <input name="fname"class="textstyle" type="text" placeholder="Firstname">
+    
+            <input name="sname"class="textstyle"type="text" placeholder="Surname">
+            
+            <input name="emailAddress" class="textstyle2"type="text" placeholder="Mobile number or email address">
+           
+            <input name="password" class="textstyle2"type="text" placeholder="New password">
+            <br><br>
+            <label class="label-text">Birthday</label>
+            <br>
+            <select class="select" name="day" id="">
+                <option value="">Day</option>
+                <option value="1">1 </option>
+                <option value="2">2 </option>
+                <option value="3">3 </option>
+                <option value="4">4 </option>
+                <option value="5">5 </option>
+                <option value="6">6 </option>
+                <option value="7">7 </option>
+                <option value="">8</option>
+               
+            </select>
+            <select class="select" name="month" id="">
+                <option value="">Month</option>
+                <option value="january">January</option>
+                <option value="february">February</option>
+                <option value="march">March</option>
+                <option value="april">April</option>
+                <option value="may">May</option>
+                <option value="june">June</option>
+                <option value="july">July</option>
+                <option value="august">August</option>
+                <option value="september">September</option>
+                <option value="october">October</option>
+                <option value="november">November</option>
+                <option value="december">December</option>
+            </select>
+            <select class="select" name="year" id="">
+                <option value="">Year</option>
+                <option value="1997">1997 </option>
+                <option value="1998">1998 </option>
+                <option value="1999">1999 </option>
+                <option value="2000">2000 </option>
+                <option value="2001">2001 </option>
+               
+            </select>
+            <br>
+            <label class="label-text">Gender</label>
+             <br>
+             <input type="radio" id="female" name="gender" value="female">
+             <label for="female" class="gender">Female</label>
+             <input type="radio" id="male" name="gender" value="male">
+             <label for="male" class="gender">Male</label>
+             <input type="radio" id="custom" name="gender" value="custom">
+             <label for="custom" class="gender">Custom</label>
+             <br>
+             <p class="paratext">By clicking Sign Up,you agree to our <a class="policy" href="index.html">Terms,Data Policy</a><br>
+                and <a class="policy" href="index.html">Cookie Policy</a>.You may recieve SMS notifications from <br>
+                us and can opt out at any time.
+             </p>
+             <br>
+             <input type="submit" value="Sign Up" class="submitbtn">
+             <br>
+             <p class="paratext1"><a class="policy" href="index.html">Create a page</a> for a celibrity,brand or business.</p>
+ 
+             
+         </form>
+         </div>
+        </div>
+        <div class="bottom"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="script.js"> </script>
+
+</body>
+</html>
